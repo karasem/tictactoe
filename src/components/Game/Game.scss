@@ -1,0 +1,34 @@
+.game-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    .game-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 650px;
+        p {
+            margin:0;
+            font-size: 24px;
+            color: #0f686b;
+        }
+            .moves-list{
+            list-style-type: none;
+            flex-wrap: wrap;
+            display: flex;
+            height: 130px;
+            flex-direction: column;
+            button {
+                background-color: #71979d9c;
+                border: none;
+                width: 120px;
+                height: 30px;
+                color: #0f686b;
+                font-weight: 600;
+                border-radius: 4px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+}

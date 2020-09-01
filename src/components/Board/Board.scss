@@ -1,0 +1,8 @@
+.board {
+    border: solid 1px rgba(90, 82, 82, 0.472);
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
